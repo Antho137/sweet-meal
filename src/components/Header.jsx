@@ -27,7 +27,7 @@ const Header = () => {
         <ul className="hidden md:flex space-x-4">
           <li>
             <NavLink
-              to="/"
+              to="/vite-react-router/"
               className={({ isActive }) =>
                 isActive
                   ? "bg-orange-600 text-white px-3 pt-0.5 pb-1.5 rounded"
@@ -39,7 +39,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/menu"
+              to="/vite-react-router/menu"
               className={({ isActive }) =>
                 isActive
                   ? "bg-orange-600 text-white px-3 pt-0.5 pb-1.5 rounded"
@@ -51,7 +51,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/about"
+              to="/vite-react-router/about"
               className={({ isActive }) =>
                 isActive
                   ? "bg-orange-600 text-white px-3 pt-0.5 pb-1.5 rounded"
@@ -63,7 +63,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/services"
+              to="/vite-react-router/services"
               className={({ isActive }) =>
                 isActive
                   ? "bg-orange-600 text-white px-3 pt-0.5 pb-1.5 rounded"
@@ -75,7 +75,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/contact"
+              to="/vite-react-router/contact"
               className={({ isActive }) =>
                 isActive
                   ? "bg-orange-600 text-white px-3 pt-0.5 pb-1.5 rounded"
@@ -91,7 +91,7 @@ const Header = () => {
         <ul className="flex justify-around md:hidden bg-white mt-3 py-2">
           <li className="py-2">
             <NavLink
-              to="/"
+              to="/vite-react-router/"
               className={({ isActive }) =>
                 isActive
                   ? "bg-orange-600 text-white px-3 pt-0.5 pb-1.5 rounded"
@@ -115,7 +115,7 @@ const Header = () => {
           </li>
           <li className="py-2">
             <NavLink
-              to="/about"
+              to="/vite-react-router/about"
               className={({ isActive }) =>
                 isActive
                   ? "bg-orange-600 text-white px-3 pt-0.5 pb-1.5 rounded"
@@ -127,7 +127,7 @@ const Header = () => {
           </li>
           <li className="py-2">
             <NavLink
-              to="/services"
+              to="/vite-react-router/services"
               className={({ isActive }) =>
                 isActive
                   ? "bg-orange-600 text-white px-3 pt-0.5 pb-1.5 rounded"
@@ -139,7 +139,7 @@ const Header = () => {
           </li>
           <li className="py-2">
             <NavLink
-              to="/contact"
+              to="/vite-react-router/contact"
               className={({ isActive }) =>
                 isActive
                   ? "bg-orange-600 text-white px-3 pt-0.5 pb-1.5 rounded"
